@@ -1,6 +1,6 @@
 # Import Scrapy 
 from scrapy.spiders import CrawlSpider, Rule,Request
-from scrapy.linkextractors import LinkExtractor 
+from scrapy.linkextractors import LinkExtractor
 #Import some function helpers
 from helpers import * 
 class LarousseCrawler(CrawlSpider):
